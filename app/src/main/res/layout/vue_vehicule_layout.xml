@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/libvehicule"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/libvehicule" />
+        
+    <TextView
+        android:id="@+id/immat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/libvehicule"
+        android:layout_alignBottom="@+id/libvehicule"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/libvehicule"
+        android:text=""
+        android:textStyle="italic" />
+    
+    <TextView
+        android:id="@+id/dateimmat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/immat"
+        android:layout_alignBottom="@+id/immat"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/immat"
+        android:text=""
+        android:textStyle="italic" />
+    
+	<TextView
+        android:id="@+id/libkilometrage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="@dimen/margintopfield"
+        android:layout_below="@+id/libvehicule"
+        android:text="@string/libkilometrage" />
+
+    <TextView
+        android:id="@+id/kilometrage"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/libkilometrage"
+        android:layout_alignBottom="@+id/libkilometrage"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/libkilometrage"
+        android:text=""
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/libmoteur"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="@dimen/margintopfield"
+        android:layout_below="@+id/libkilometrage"
+        android:text="@string/libmoteur" />
+    
+    <TextView
+        android:id="@+id/cylindree"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/libmoteur"
+        android:layout_alignBottom="@+id/libmoteur"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/libmoteur"
+        android:text=""
+        android:textStyle="italic" />
+    
+    <TextView
+        android:id="@+id/puissance"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cylindree"
+        android:layout_alignBottom="@+id/cylindree"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/cylindree"
+        android:text=""
+        android:textStyle="italic" />
+    
+    <TextView
+        android:id="@+id/libhuile"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="@dimen/margintopfield"
+        android:layout_below="@+id/libmoteur"
+        android:text="@string/libhuile" />
+    
+    <TextView
+        android:id="@+id/huile"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/libhuile"
+        android:layout_alignBottom="@+id/libhuile"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/libhuile"
+        android:text=""
+        android:textStyle="italic" />
+    
+    <TextView 
+        android:id="@+id/liblisteentretiens"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/libhuile"
+        android:layout_below="@+id/libhuile"
+        android:layout_marginTop="@dimen/margintopfield"
+        android:text="@string/liblistentretiens"
+        />
+    <ListView
+        android:id="@+id/lstentretiens"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_alignLeft="@+id/liblisteentretiens"
+        android:layout_below="@+id/liblisteentretiens"
+        android:dividerHeight="2dp"
+        android:divider="@color/abc_search_url_text_normal"
+        android:layout_marginTop="2dp" >
+
+    </ListView>
+    
+    <TextView
+        android:id="@+id/libnextentretien"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="@dimen/margintopfield"
+        android:layout_below="@+id/lstentretiens"
+        android:text="@string/libnextentretien" />
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/bt_send" />
+
+</RelativeLayout>

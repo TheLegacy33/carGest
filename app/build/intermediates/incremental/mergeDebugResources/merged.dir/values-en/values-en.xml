@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_actionbar">Add</string>
+    <string name="add_option">Add</string>
+    <string name="bt_goto_liste_vehicules">Vehicles\' List</string>
+    <string name="bt_quit">Quitter</string>
+    <string name="bt_send">Envoyer</string>
+    <string name="close_option">Close</string>
+    <string name="drop_option">Delete</string>
+    <string name="edit_option">Edit</string>
+    <string name="libentretien">Check :</string>
+    <string name="libhuile">Oil :</string>
+    <string name="libkilometrage">Kilometers :</string>
+    <string name="liblistentretiens">Checkups : </string>
+    <string name="libmoteur">Engine :</string>
+    <string name="libnextentretien">Next check at </string>
+    <string name="libvehicule">Vehicle :</string>
+    <string name="search_actionbar">Search</string>
+    <string name="title_activity_liste_vehicules">Vehicles</string>
+    <string name="title_activity_vue_entretien">Checkup</string>
+    <string name="title_activity_vue_principale">Home</string>
+    <string name="title_activity_vue_vehicule">Vehicle</string>
+    <string name="title_application">CarGest</string>
+    <string name="welcome">Welcome</string>
+</resources>

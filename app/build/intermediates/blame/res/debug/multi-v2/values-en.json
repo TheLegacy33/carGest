@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/michel/AndroidStudioProjects/SQLIAndroid/carGest/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en/values-en.xml",
+            "map": [
+                {
+                    "source": "/home/michel/AndroidStudioProjects/SQLIAndroid/carGest/app/src/main/res/values-en/strings_menus.xml",
+                    "from": {
+                        "startLines": "7,4,6,5,3,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "253,116,206,159,71,299",
+                        "endColumns": "45,42,46,46,44,51",
+                        "endOffsets": "294,154,248,201,111,346"
+                    },
+                    "to": {
+                        "startLines": "2,3,7,8,9,17",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,101,300,347,394,802",
+                        "endColumns": "45,42,46,46,44,51",
+                        "endOffsets": "96,139,342,389,434,849"
+                    }
+                },
+                {
+                    "source": "/home/michel/AndroidStudioProjects/SQLIAndroid/carGest/app/src/main/res/values-en/strings_buttons.xml",
+                    "from": {
+                        "startLines": "5,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "159,115,71",
+                        "endColumns": "67,43,43",
+                        "endOffsets": "222,154,110"
+                    },
+                    "to": {
+                        "startLines": "4,5,6",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "144,212,256",
+                        "endColumns": "67,43,43",
+                        "endOffsets": "207,251,295"
+                    }
+                },
+                {
+                    "source": "/home/michel/AndroidStudioProjects/SQLIAndroid/carGest/app/src/main/res/values-en/strings_labels.xml",
+                    "from": {
+                        "startLines": "7,6,4,9,5,8,3",
+                        "startColumns": "1,1,4,1,1,1,4",
+                        "startOffsets": "258,218,121,361,174,304,71",
+                        "endColumns": "45,39,55,54,43,56,49",
+                        "endOffsets": "302,256,172,414,216,359,116"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "439,488,531,587,645,692,752",
+                        "endColumns": "48,42,55,57,46,59,49",
+                        "endOffsets": "483,526,582,640,687,747,797"
+                    }
+                },
+                {
+                    "source": "/home/michel/AndroidStudioProjects/SQLIAndroid/carGest/app/src/main/res/values-en/strings_titles.xml",
+                    "from": {
+                        "startLines": "7,4,6,5,3,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "317,125,254,190,71,385",
+                        "endColumns": "67,64,62,63,53,43",
+                        "endOffsets": "380,185,312,249,120,424"
+                    },
+                    "to": {
+                        "startLines": "18,19,20,21,22,23",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "854,922,987,1050,1114,1168",
+                        "endColumns": "67,64,62,63,53,43",
+                        "endOffsets": "917,982,1045,1109,1163,1207"
+                    }
+                }
+            ]
+        }
+    ]
+}

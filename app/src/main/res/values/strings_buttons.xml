@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- FR -->
+    <string name="bt_send">Envoyer</string>
+    <string name="bt_quit">Quitter</string>
+    <string name="bt_goto_liste_vehicules">Liste des véhicules</string>
+    
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- EN -->
+    <string name="title_application">CarGest</string>
+    <string name="title_activity_vue_entretien">Checkup</string>
+    <string name="title_activity_vue_vehicule">Vehicle</string>
+    <string name="title_activity_vue_principale">Home</string>
+    <string name="title_activity_liste_vehicules">Vehicles</string>
+    <string name="welcome">Welcome</string>
+</resources>

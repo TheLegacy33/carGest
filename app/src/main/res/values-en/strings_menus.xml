@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- EN -->
+    <string name="edit_option">Edit</string>
+    <string name="add_option">Add</string>
+    <string name="drop_option">Delete</string>
+    <string name="close_option">Close</string>
+    <string name="add_actionbar">Add</string>
+    <string name="search_actionbar">Search</string>
+</resources>

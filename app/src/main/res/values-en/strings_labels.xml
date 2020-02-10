@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- EN -->
+    <string name="libvehicule">Vehicle :</string>
+    <string name="libkilometrage">Kilometers :</string>
+	<string name="libmoteur">Engine :</string>
+	<string name="libhuile">Oil :</string>
+	<string name="libentretien">Check :</string>
+	<string name="libnextentretien">Next check at </string>
+	<string name="liblistentretiens">Checkups : </string>
+</resources>

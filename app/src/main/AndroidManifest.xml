@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="net.devatom.cargest" >
+
+    <uses-sdk android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/title_application"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".VuePrincipale"
+            android:label="@string/title_application" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VueVehicule"
+            android:label="@string/title_activity_vue_vehicule" >
+        </activity>
+        <activity
+            android:name=".VueEntretien"
+            android:label="@string/title_activity_vue_vehicule" >
+        </activity>
+        <activity
+            android:name=".ListeVehicules"
+            android:label="@string/title_activity_liste_vehicules" >
+        </activity>
+    </application>
+
+</manifest>

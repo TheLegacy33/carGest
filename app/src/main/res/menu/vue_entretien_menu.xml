@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.devatom.cargest.FicheEntretien" >
+
+    <item
+        android:id="@+id/mnu_edit_entretien"
+        android:orderInCategory="100"
+        android:title="@string/edit_option"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mnu_delete_entretien"
+        android:orderInCategory="100"
+        android:title="@string/drop_option"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mnu_close"
+        android:orderInCategory="100"
+        android:title="@string/close_option"
+        app:showAsAction="never"/>
+
+</menu>
